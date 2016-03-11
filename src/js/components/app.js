@@ -11,7 +11,7 @@ var App = React.createClass({
   render:function(){
     return (
       <Template>
-        <Locations>
+        <Locations hash>
           <Location path="/" handler={Catalog} />
           <Location path="/cart" handler={Cart} />
           <Location path="/item/:item" handler={CatalogDetail} />
